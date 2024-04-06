@@ -38,3 +38,8 @@ Works with remote repository using config
 }
 
 ```
+
+#### To Run UnitTests
+```
+python -m unittest pkg.filter_test.FilterTest -v
+```
