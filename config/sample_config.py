@@ -1,3 +1,6 @@
-ACCESS_KEY = ""
-SECRET_KEY = ""
-BUCKET_NAME = "linuxtools"
+AWS_ACCESS_KEY = ""
+AWS_SECRET_KEY = ""
+AWS_BUCKET_NAME = "linuxtools"
+
+DateFormat = "%Y-%m-%d"
+TimeFormat = "%H"

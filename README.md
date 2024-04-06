@@ -18,9 +18,23 @@ GET /grep
 ```
 
 
-can work on remote respository using config
+Works with remote repository using config
 
 
-## Installation
-* Step 1 install requriments.py
+## Running on Local
+* Step 1 install requirements.py
 * Step 2 copy config/sample_config.py as conifg/conifg.py 
+* Step 3 python main.py
+
+
+
+```
+ curl -X GET -H "Content-type: application/json" "localhost:8000/grep" -d "{\"searchString\" : \"hello\", \"from\" : 1712275200, \"to\" : 1712361599 }"
+{
+  "result": [
+    "hello 04-03",
+    "hello 04-11"
+  ]
+}
+
+```
