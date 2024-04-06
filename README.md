@@ -19,3 +19,8 @@ GET /grep
 
 
 can work on remote respository using config
+
+
+
+Step 1 install requriments.py
+Step 2 copy config/sample_config.py as conifg/conifg.py 
